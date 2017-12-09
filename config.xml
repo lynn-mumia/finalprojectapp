@@ -3,10 +3,10 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0"  id  = "com.phonegap.mygeolocator" version   = "1.0.0">
 
-    <name>My Locator</name>
+    <name>No Unlawfulness</name>
 
     <description>
-        My Locator displays the location of the device on the on-ready function call .
+        This application takes note of the unlawful events reported to the authorities.
     </description>
 
     <author href="http://npontu.com.com" email="lynnmumia@gmail.com">Lynn Mumia</author>
@@ -41,18 +41,18 @@
     <plugin name="cordova-plugin-geolocation" />
 
     <!-- Define app icon for each platform. -->
-    <icon src="locator.png" />
-    <icon src="res/icon/locator.png"   gap:platform="android"    gap:qualifier="ldpi" />
-    <icon src="res/icon/locator.png"   gap:platform="android"    gap:qualifier="mdpi" />
-    <icon src="res/icon/locator.png"   gap:platform="android"    gap:qualifier="hdpi" />
-    <icon src="res/icon/locator.png"  gap:platform="android"    gap:qualifier="xhdpi" />
-    <icon src="res/icon/locator.png"            gap:platform="ios"        width="57" height="57" />
-    <icon src="res/icon/locator.png"            gap:platform="ios"        width="72" height="72" />
-    <icon src="res/icon/locator.png"         gap:platform="ios"        width="114" height="114" />
-    <icon src="res/icon/locator.png"         gap:platform="ios"        width="144" height="144" />
-    <icon src="res/icon/locator.png"          gap:platform="webos" />
-    <icon src="res/icon/locator.png"  gap:platform="winphone" />
-    <icon src="res/icon/locator.png" gap:platform="winphone"   gap:role="background" />
+    <icon src="locator3.jpg" />
+    <icon src="res/icon/locator3.jpg"   gap:platform="android"    gap:qualifier="ldpi" />
+    <icon src="res/icon/locator3.jpg"   gap:platform="android"    gap:qualifier="mdpi" />
+    <icon src="res/icon/locator3.jpg"   gap:platform="android"    gap:qualifier="hdpi" />
+    <icon src="res/icon/locator3.jpg"  gap:platform="android"    gap:qualifier="xhdpi" />
+    <icon src="res/icon/locator3.jpg"            gap:platform="ios"        width="57" height="57" />
+    <icon src="res/icon/locator3.jpg"            gap:platform="ios"        width="72" height="72" />
+    <icon src="res/icon/locator3.jpg"         gap:platform="ios"        width="114" height="114" />
+    <icon src="res/icon/locator3.jpg"         gap:platform="ios"        width="144" height="144" />
+    <icon src="res/icon/locator3.jpg"          gap:platform="webos" />
+    <icon src="res/icon/locator3.jpg"  gap:platform="winphone" />
+    <icon src="res/icon/locator3.jpg" gap:platform="winphone"   gap:role="background" />
 
     <!-- Define app splash screen for each platform. -->
     <gap:splash src="res/screen/android/screen-ldpi-portrait.png"       gap:platform="android" gap:qualifier="port-ldpi" />
