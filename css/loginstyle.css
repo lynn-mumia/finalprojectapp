@@ -21,6 +21,11 @@ body {
   background: #4CAF50;
 }
 
+button {
+  height:5%;
+
+}
+
 .container {
   max-width: 400px;
   width: 100%;
@@ -28,17 +33,20 @@ body {
   position: relative;
 }
 
-.navbar{
-  display: inline-block;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-  margin-left:5%;
-  margin-top: 5%;
-  font-size: 100%;
-  text-align: center;
+ul{
+  list-style-type:none;
+  margin: 5%;
+  padding: 0; 
+  overflow:hidden;
+  background-color: #F9F9F9;
+  font-size: 200%;
+  font-weight: 300;
 }
-
+ul li{
+  display:inline-block;
+  padding: 2%;
+}
+    
 #contact input[type="text"],
 #contact input[type="password"],
 #contact select,
@@ -104,6 +112,16 @@ fieldset {
   height: 100px;
   max-width: 100%;
   resize: none;
+}
+
+#button{
+  width: 100%;
+  border: none;
+  background: #4CAF50;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
 }
 
 #contact button[type="submit"] {
